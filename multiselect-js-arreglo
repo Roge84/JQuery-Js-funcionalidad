@@ -1,0 +1,8 @@
+var selected = [];
+		for (var option of document.getElementById('additionalList').options) {
+			if (option.selected) {
+				selected.push(option.label);
+			}
+		}
+
+	values = selected;
